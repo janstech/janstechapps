@@ -75,7 +75,7 @@
         <article class="app-card">
           <h4>
             <img class="app-logo" src="/assets/AI.png" alt="Shopping List &amp; Notes logo">
-            <span data-i18n="shopping_title">Shopping List &amp; Notes</span>
+            <a href="/apps/kauppalista/" data-i18n="shopping_title">Shopping List &amp; Notes</a>
           </h4>
           <p data-i18n="shopping_desc">
             Privacy-first shopping list, notes and recipe app. Local lists work on-device, while optional AI features and realtime shared lists use online services when enabled.
@@ -88,6 +88,7 @@
           </ul>
           <div class="app-actions">
             <a class="app-btn primary" href="https://play.google.com/store/apps/details?id=com.janstech.kauppalista" target="_blank" rel="noopener noreferrer" data-i18n="btn_google_play">Google Play</a>
+            <a class="app-btn" href="/apps/kauppalista/" data-i18n="btn_app_page">App page</a>
             <a class="app-btn" href="/legal/kauppalista/" data-i18n="btn_privacy">Privacy Policy</a>
             <a class="app-btn" href="/legal/kauppalista/support.html" data-i18n="btn_support">Support</a>
             <a class="app-btn" href="/legal/kauppalista/terms.html" data-i18n="btn_terms">Terms</a>
@@ -98,19 +99,20 @@
         <article class="app-card">
           <h4>
             <img class="app-logo" src="/assets/iq_kuv1.png" alt="WaveIQ Radio logo">
-            <span data-i18n="waveiq_title">WaveIQ Radio</span>
+            <a href="/apps/waveiq/" data-i18n="waveiq_title">WaveIQ Radio</a>
           </h4>
           <p data-i18n="waveiq_desc">
-            Internet radio and AI discovery platform with smart recommendations, Station DNA, similar stations and explainable listening suggestions.
+            AI-assisted internet radio app for finding, saving, understanding and rediscovering stations that match your taste.
           </p>
           <ul class="feature-list">
-            <li data-i18n="waveiq_f1">Online radio streaming and station discovery</li>
-            <li data-i18n="waveiq_f2">AI search and smart recommendations</li>
-            <li data-i18n="waveiq_f3">Station DNA, similar stations and recommendation explanations</li>
-            <li data-i18n="waveiq_f4">Google Drive backup and listening intelligence</li>
+            <li data-i18n="waveiq_f1">Internet radio playback with saved stations and favorites</li>
+            <li data-i18n="waveiq_f2">AI-assisted station search from natural prompts</li>
+            <li data-i18n="waveiq_f3">Personalized recommendations and similar stations</li>
+            <li data-i18n="waveiq_f4">Google Drive backup and restore for saved stations, settings and logos</li>
           </ul>
           <div class="app-actions">
             <a class="app-btn primary" href="https://play.google.com/store/apps/details?id=com.janstech.radioplayer" target="_blank" rel="noopener noreferrer" data-i18n="btn_google_play">Google Play</a>
+            <a class="app-btn" href="/apps/waveiq/" data-i18n="btn_app_page">App page</a>
             <a class="app-btn" href="/legal/waveiq/" data-i18n="btn_privacy">Privacy Policy</a>
             <a class="app-btn" href="/legal/waveiq/support.html" data-i18n="btn_support">Support</a>
             <a class="app-btn" href="/legal/waveiq/terms.html" data-i18n="btn_terms">Terms</a>
@@ -143,6 +145,8 @@
         <section class="mini-card">
           <h4 data-i18n="quick_h">Quick links</h4>
           <ul>
+            <li><a href="/apps/kauppalista/" data-i18n="quick_shopping_app">Shopping List &amp; Notes app page</a></li>
+            <li><a href="/apps/waveiq/" data-i18n="quick_waveiq_app">WaveIQ Radio app page</a></li>
             <li><a href="/legal/kauppalista/" data-i18n="quick_shopping_legal">Shopping List &amp; Notes legal pages</a></li>
             <li><a href="/legal/waveiq/" data-i18n="quick_waveiq_legal">WaveIQ Radio legal pages</a></li>
             <li><a href="/legal/gainsai/" data-i18n="quick_gainsai_legal">GainsAI legal pages</a></li>
@@ -196,11 +200,11 @@
         shopping_f3: "Optional realtime shared shopping and task lists",
         shopping_f4: "No mandatory login for normal local use",
         waveiq_title: "WaveIQ Radio",
-        waveiq_desc: "Internet radio and AI discovery platform with smart recommendations, Station DNA, similar stations and explainable listening suggestions.",
-        waveiq_f1: "Online radio streaming and station discovery",
-        waveiq_f2: "AI search and smart recommendations",
-        waveiq_f3: "Station DNA, similar stations and recommendation explanations",
-        waveiq_f4: "Google Drive backup and listening intelligence",
+        waveiq_desc: "AI-assisted internet radio app for finding, saving, understanding and rediscovering stations that match your taste.",
+        waveiq_f1: "Internet radio playback with saved stations and favorites",
+        waveiq_f2: "AI-assisted station search from natural prompts",
+        waveiq_f3: "Personalized recommendations and similar stations",
+        waveiq_f4: "Google Drive backup and restore for saved stations, settings and logos",
         gainsai_title: "GainsAI",
         gainsai_desc: "AI personal trainer platform with workout generation, training logs, progress analytics, recommendations and adaptive coaching foundations.",
         gainsai_f1: "AI-generated training plans and program management",
@@ -209,11 +213,14 @@
         gainsai_f4: "Backend-connected coaching, recommendations and backup features",
         gainsai_status: "In development / closed testing",
         btn_google_play: "Google Play",
+        btn_app_page: "App page",
         btn_privacy: "Privacy Policy",
         btn_support: "Support",
         btn_terms: "Terms",
         btn_delete: "Delete Data",
         quick_h: "Quick links",
+        quick_shopping_app: "Shopping List & Notes app page",
+        quick_waveiq_app: "WaveIQ Radio app page",
         quick_shopping_legal: "Shopping List & Notes legal pages",
         quick_waveiq_legal: "WaveIQ Radio legal pages",
         quick_gainsai_legal: "GainsAI legal pages",
@@ -241,11 +248,11 @@
         shopping_f3: "Vapaaehtoiset reaaliaikaiset jaetut kauppa- ja tehtävälistat",
         shopping_f4: "Ei pakollista kirjautumista normaaliin paikalliseen käyttöön",
         waveiq_title: "WaveIQ Radio",
-        waveiq_desc: "Internet-radio- ja AI discovery -alusta, jossa on älykkäät suositukset, Station DNA, samankaltaiset asemat ja selitettävät kuunteluehdotukset.",
-        waveiq_f1: "Verkkoradion kuuntelu ja asemien löytäminen",
-        waveiq_f2: "AI-haku ja älykkäät suositukset",
-        waveiq_f3: "Station DNA, samankaltaiset asemat ja suositusten selitykset",
-        waveiq_f4: "Google Drive -varmuuskopiointi ja listening intelligence",
+        waveiq_desc: "AI-avusteinen internet-radio, joka auttaa löytämään, tallentamaan, ymmärtämään ja uudelleen löytämään omaan makuun sopivia asemia.",
+        waveiq_f1: "Internet-radion kuuntelu, tallennetut asemat ja suosikit",
+        waveiq_f2: "AI-avusteinen asemahaku luonnollisista kehotteista",
+        waveiq_f3: "Personoidut suositukset ja samankaltaiset asemat",
+        waveiq_f4: "Google Drive -varmuuskopiointi ja palautus tallennetuille asemille, asetuksille ja logoille",
         gainsai_title: "GainsAI",
         gainsai_desc: "AI personal trainer -alusta, jossa on treeniohjelmien generointi, treenilogit, progress-analytiikka, suositukset ja adaptiivisen valmennuksen perusta.",
         gainsai_f1: "AI-generoidut treeniohjelmat ja ohjelmien hallinta",
@@ -254,11 +261,14 @@
         gainsai_f4: "Backendiin kytkeytyvä valmennus, suositukset ja backup-ominaisuudet",
         gainsai_status: "Kehityksessä / suljetussa testauksessa",
         btn_google_play: "Google Play",
+        btn_app_page: "Sovellussivu",
         btn_privacy: "Tietosuoja",
         btn_support: "Tuki",
         btn_terms: "Käyttöehdot",
         btn_delete: "Poista tiedot",
         quick_h: "Pikalinkit",
+        quick_shopping_app: "Kauppalista & Muistiinpanot -sovellussivu",
+        quick_waveiq_app: "WaveIQ Radio -sovellussivu",
         quick_shopping_legal: "Kauppalista & Muistiinpanot legal-sivut",
         quick_waveiq_legal: "WaveIQ Radion legal-sivut",
         quick_gainsai_legal: "GainsAI legal-sivut",

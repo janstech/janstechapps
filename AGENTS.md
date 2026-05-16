@@ -55,6 +55,11 @@ Expected structure:
 ├── style.css
 ├── AGENTS.md
 ├── assets/
+├── apps/
+│   ├── kauppalista/
+│   └── waveiq/
+├── docs/
+│   └── apps/
 └── legal/
     ├── kauppalista/
     ├── waveiq/
@@ -75,6 +80,15 @@ Root is reserved for:
 Shared images, icons and favicons belong under:
 
 - assets/
+
+Public app landing pages belong under:
+
+- apps/kauppalista/
+- apps/waveiq/
+
+Public app-page source profiles belong under:
+
+- docs/apps/
 
 Legal and support pages belong under:
 
@@ -101,6 +115,7 @@ Agents MUST preserve or intentionally update these public URLs.
 
 ## Shopping List & Notes / Kauppalista
 
+- https://janstechapps.com/apps/kauppalista/
 - https://janstechapps.com/legal/kauppalista/
 - https://janstechapps.com/legal/kauppalista/support.html
 - https://janstechapps.com/legal/kauppalista/terms.html
@@ -108,6 +123,7 @@ Agents MUST preserve or intentionally update these public URLs.
 
 ## WaveIQ Radio
 
+- https://janstechapps.com/apps/waveiq/
 - https://janstechapps.com/legal/waveiq/
 - https://janstechapps.com/legal/waveiq/support.html
 - https://janstechapps.com/legal/waveiq/terms.html
@@ -269,6 +285,8 @@ python -m http.server 8000
 Then test key pages locally:
 
 - http://127.0.0.1:8000/
+- http://127.0.0.1:8000/apps/kauppalista/
+- http://127.0.0.1:8000/apps/waveiq/
 - http://127.0.0.1:8000/legal/kauppalista/
 - http://127.0.0.1:8000/legal/waveiq/
 - http://127.0.0.1:8000/legal/gainsai/
@@ -322,6 +340,48 @@ Update README.md whenever changes affect:
 README should remain concise and useful.
 
 ---
+
+# 🌍 PUBLIC PAGE LOCALIZATION RULE
+
+All public user-facing pages in this repository MUST support both:
+
+- English (EN)
+- Finnish (FI)
+
+This applies to:
+
+- the main landing page
+- app landing pages under `/apps/`
+- legal/support pages when they already use the bilingual page template
+- shared navigation
+- CTA buttons
+- footer links
+- metadata where practical
+
+When adding or editing public pages, agents MUST:
+
+- preserve the existing EN/FI language toggle pattern
+- provide all visible user-facing text in both languages
+- avoid mixed-language UI
+- keep terminology consistent across pages
+- ensure language switching updates all relevant text on the page
+
+For app landing pages, language switching MUST cover at minimum:
+
+- hero title and subtitle
+- feature cards
+- benefit sections
+- privacy/local-first/AI summaries
+- Google Play CTA text
+- support/legal link labels
+- footer/contact text
+
+Agents MUST NOT create English-only public landing pages unless explicitly requested.
+
+A public page task is not complete until bilingual behavior has been considered and implemented.
+
+---
+
 
 # 🚀 GITHUB PAGES RULE
 

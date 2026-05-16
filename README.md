@@ -7,6 +7,8 @@ This repository contains the static Janstech Apps website served from the reposi
 - `index.html` - Janstech Apps landing page.
 - `style.css` - Landing page stylesheet.
 - `assets/` - Shared app images and favicon files.
+- `apps/kauppalista/` - Shopping List & Notes public app landing page.
+- `apps/waveiq/` - WaveIQ Radio public app landing page.
 - `legal/kauppalista/` - Shopping List & Notes privacy, support, terms, and delete-data pages.
 - `legal/waveiq/` - WaveIQ Radio privacy, support, terms, and delete-data pages.
 - `legal/gainsai/` - GainsAI privacy, support, terms, and delete-data pages.
@@ -15,6 +17,8 @@ This repository contains the static Janstech Apps website served from the reposi
 ## Production URLs
 
 - https://janstechapps.com/
+- https://janstechapps.com/apps/kauppalista/
+- https://janstechapps.com/apps/waveiq/
 - https://janstechapps.com/legal/kauppalista/
 - https://janstechapps.com/legal/kauppalista/support.html
 - https://janstechapps.com/legal/kauppalista/terms.html
